@@ -25,17 +25,18 @@ export function Subscribe() { //aula 5 15:19
 
   return ( //aula 4 44:58
     <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
-      <div className="w-full max-w-[1100px] flex justify-between items-center mt-20 mx-auto">
-        <div className="max-w-[640px]" >
+      <div className="w-full md:max-w-[1100px] md:flex md:justify-between md:items-center mt-10 md:mt-20 mx-auto">
+        <div className="sm:max-w-[312px] md:max-w-[640px] flex justify-center items-center flex-col px-6 pb-8">
           <Logo />
 
-          <h1 className="mt-8 text-[2.5rem] leading-tight">Construa uma <strong className="text-blue-500">aplicação completa</strong>, do zero, com <strong className="text-blue-500">React</strong></h1>
-          <p className="mt-4 text-gray-200 leading-relaxed">Em apenas uma semana você vai dominar na prática uma das tecnologias mais utilizadas e com alta 
+          <h1 className="hidden mt-8 md:inline text-[2.5rem] leading-tight">Construa uma <strong className="text-blue-500">aplicação completa</strong>, do zero, com <strong className="text-blue-500">React</strong></h1>
+          <h1 className="mt-[1.525625rem] inline md:hidden text-[1.875rem] leading-tight">Construa uma <br /> <strong className="text-blue-500">aplicação completa</strong>, <br /> do zero, com <strong className="text-blue-500">React</strong></h1>
+          <p className="mt-4 text-gray-200 text-sm leading-relaxed">Em apenas uma semana você vai dominar na prática uma das tecnologias mais utilizadas e com alta 
             demanda para acessar as melhores oportunidades do mercado.
           </p>
         </div>
 
-        <div className="p-8 bg-gray-700 border border-gray-700" >
+        <div className=" p-8 bg-gray-700 border border-gray-700" >
           <strong className="text-2xl mb-6 block">Inscreva-se gratuitamente</strong>
           <form onSubmit={handleSubscribe} className="flex flex-col gap-2 w-full">
             <input 

@@ -9,7 +9,7 @@ export function Event() {
   return ( //aula 05 07:07
     <div className="flex flex-col min-h-screen ">
       <Header />
-      <main className="flex flex-1">
+      <main className="flex md:flex-1">
         { slug 
          ? <Video lessonSlug={slug}/> 
           : <div className="flex-1" /> }
