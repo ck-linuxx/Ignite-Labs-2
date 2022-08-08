@@ -1,7 +1,7 @@
 import { useGetLessonsQuery } from "../graphql/generated";
 import { Lesson } from "./Lesson";
 
-export function Sidebar({ menu }: boolean) {
+export function Sidebar({ menu }: IntrinsicAttributes & boolean {
   const { data } = useGetLessonsQuery()
 
   return (
