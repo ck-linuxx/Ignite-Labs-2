@@ -1,8 +1,11 @@
-import { ReactEventHandler } from "react";
 import { useGetLessonsQuery } from "../graphql/generated";
 import { Lesson } from "./Lesson";
 
-export function Sidebar({ menu }: ReactEventHandler {
+type SidebarProps = {
+  menu: boolean;
+}
+
+export function Sidebar({ menu }: SidebarProps ){
   const { data } = useGetLessonsQuery()
 
   return (
