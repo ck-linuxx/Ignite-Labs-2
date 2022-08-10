@@ -16,7 +16,7 @@
 <img src="./Desktop3.png">
 <br />
 <p>Mobile</p>
-<img src="./Mobile1.png">
-<img src="./Mobile2.png">
-<img src="./Mobile3.png">
-<img src="./Mobile4.png">
+<img src="./Mobile1.jpeg">
+<img src="./Mobile2.jpeg">
+<img src="./Mobile3.jpeg">
+<img src="./Mobile4.jpeg">
